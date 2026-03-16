@@ -2,7 +2,7 @@ name: Litecom2MQTT
 slug: litecom2mqtt
 description: Litecom CCD to MQTT bridge
 version: "1.0"
-image: ghcr.io/swissmanu/litecom2mqtt/litecom2mqtt
+image: ghcr.io/swissmanu/litecom2mqtt/litecom2mqtt:latest
 arch:
   - amd64
   - aarch64
