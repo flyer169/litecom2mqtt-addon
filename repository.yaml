@@ -1,3 +1,6 @@
 name: Litecom Add-ons
 url: https://github.com/flyer169/litecom2mqtt-addon
 maintainer: flyer169
+addons:
+  litecom2mqtt:
+    name: Litecom2MQTT
