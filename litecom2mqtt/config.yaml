@@ -1,0 +1,27 @@
+name: Litecom2MQTT
+slug: litecom2mqtt
+description: Litecom CCD to MQTT bridge
+version: "1.0"
+image: ghcr.io/swissmanu/litecom2mqtt/litecom2mqtt
+arch:
+  - amd64
+  - aarch64
+  - armv7
+startup: services
+boot: auto
+options:
+  mqtt_host: core-mosquitto
+  mqtt_port: 1883
+  mqtt_username: litecom
+  mqtt_password: Generation1
+  litecom_host: 192.168.1.2
+  consumer_name: homeassistant
+  consumer_api_token: epe8Swx0KBGJhJQNuAbCZW+agjNn+kBiQ5+5L/WKL5k=
+schema:
+  mqtt_host: str
+  mqtt_port: int
+  mqtt_username: str
+  mqtt_password: str
+  litecom_host: str
+  consumer_name: str
+  consumer_api_token: str
