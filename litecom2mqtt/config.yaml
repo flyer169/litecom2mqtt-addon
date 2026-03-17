@@ -9,6 +9,7 @@ arch:
   - armv7
 startup: services
 boot: auto
+
 options:
   mqtt_host: core-mosquitto
   mqtt_port: 1883
@@ -17,6 +18,7 @@ options:
   litecom_host: 192.168.1.2
   consumer_name: homeassistant
   consumer_api_token: epe8Swx0KBGJhJQNuAbCZW+agjNn+kBiQ5+5L/WKL5k=
+
 schema:
   mqtt_host: str
   mqtt_port: int
